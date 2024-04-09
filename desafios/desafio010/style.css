@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url("fontes/idroid.otf") format(opentype);
+}
+
+body{
+    background-color:#c5ebd6;
+    font-family: Arial, Helvetica, sans-serif;
+    display: 100%;
+}
+
+header{
+    height: 200px;
+    width: auto;
+    background-image: linear-gradient(to top, #2fa866, #063d1e);
+    
+    
+
+}
+
+header h1{
+    padding-top: 25px;
+    margin: -8px auto 0px auto ;
+    outline: 0;
+    color: aliceblue;
+    text-align: center;
+    font-size: 3em;
+    box-shadow: 20 20 20 black;
+}
+
+header p{
+    text-align: center;
+    color: white;
+    max-width: 600;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+
+header a{
+    color: #a4f0c6;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    outline: 0;
+  
+}
+
+nav{
+    background-color: #2fa866;
+    text-decoration: none !important;
+    
+  
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover{
+    color:#2fa866 ;
+    background-color: #83e1ad;
+    border-radius: 2.5px;
+    
+}
+
+main{
+    background-color: white;
+    height: 2530px;
+    margin: auto;
+    padding-top: 1px;
+    min-width: 300px;
+    max-width: 1000px;
+    text-indent: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+    
+}
+
+main h1{
+    font-family: idroid;
+    padding: 7px;
+    color: #2fa866;
+    
+}
+
+main h2{
+    background-image: linear-gradient(to right, #c5ebd6, whitesmoke);
+    font-family: idroid;
+    padding: 7px;
+    height: 20px;
+    width: auto;
+    color: #2fa866;
+    margin: 15px;
+}
+
+main p{
+padding: 6px;
+font-size: larger;
+margin: 10px;
+
+}
+
+main img{
+    /* Comando para centralizar a imagem.
+    primeiro transforma ela em um bloco, depois altera a margin para auto*/
+    display: block;
+    margin: auto;
+}
+
+article{
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+aside {
+    background-color: #83e1ad;
+    width: 100%; /* Largura em porcentagem */
+    max-width: 773px; /* Largura máxima */
+    height: auto; /* Altura automática */
+    margin: 0 auto; /* Centralizado horizontalmente */
+    border-radius: 6px;
+    font-weight: 540;
+    padding: 10px; /* Espaçamento interno */
+
+    /* Adicione outras propriedades conforme necessário */
+}
+
+aside h3 {
+    color: white;
+    background-color: #2fa866;
+    padding: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+aside p {
+    text-indent: 30px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #063d1e;
+    color: white;
+    max-width: 100%; /* Largura máxima */
+    height: 20px;
+    padding-top: 0; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centralizado horizontalmente */
+}
