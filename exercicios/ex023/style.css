@@ -1,0 +1,20 @@
+div.quadrado{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+#n1{
+    background-image: linear-gradient(to top, red, yellow );
+}
+#n2{
+    background-image: linear-gradient(to bottom, blue, red);
+}
+#n3{
+    background-image: linear-gradient(to top, yellow, blue);
+}
+#n4{
+    background-image: linear-gradient(to bottom, skyblue,  rgb(56, 4, 0));
+}
