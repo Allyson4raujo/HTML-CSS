@@ -5,29 +5,79 @@ padding: 0;
 box-sizing: border-box;
 }
 
+html, body{
+    min-height: 100vh;
+}
 
 header{
     background-color: black;
     color: white;
+    padding: 50px 0 50px 0;
     text-align: center;
-    height: 200px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+}
 
 header h1{
-    font-size: 4em;
-    padding-top: 45px;
     font-weight: 900;
+    font-size: 4vw;
 }
 
-header a{
+a{
     color: white;
     text-decoration: none;
+    font-size: 1.2vw;
 }
 
-header a:hover{
+a:hover{
     text-decoration: underline;
+    
 }
 
+main{
+    font-size:2.3vw;
+    line-height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+div{
+    padding: 50px 0 50px 50px;
+}
 
+div.nomral{
 
+}
+
+div.imagem{
+    background-color: lightslategray;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+div.imagem p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 10px;
+    
+}
+
+#n1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#n2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
