@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de Formulária</h1>
+    <form action="cadastro.py" method="post">
+        <fieldset>
+            <legend>Dados Usúario(a)</legend>
+            <p><label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required placeholder="Nome completo"></p>
+            
+            <p><label for="imes">Mês:</label>
+                <input type="month" name="" id="imes" required></p>
+            <p><label for="idata">Data: </label>
+                <input type="date" name="" id="idata" required></p>
+            <p><label for="ihora">Horario:</label>
+                <input type="time" name="" id="ihora" required></p>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+</body>
+</html>
