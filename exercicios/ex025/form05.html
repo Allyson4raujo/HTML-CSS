@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.py">
+        <p>
+            <!-- Esse cod cria uma lista de opções fixa -->
+            <label for="iest">Digite seu estado:</label>
+            <select name="estado" id="iest">
+                <option value="Escolha" selected>--escolha--</option>
+                <optgroup label="Estados Nordeste">
+                    <option value="PE">Pernambuco</option>
+                    <option value="CE">Ceará</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <!-- Esse cod cria uma lista com opção também de escrever nela -->
+            <label for="iprof">Digite sua profissão:</label>
+            <input type="text" name="" id="iprof" list="listaprof">
+            <datalist id="listaprof">
+                <option >Desenvolvedor</option>
+                <option >Nutricionista</option>
+                <option >Artesão</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="itext">Escreva aqui seu comentario:</label><br>
+            <textarea name="" id="itext" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+</body>
+</html>
