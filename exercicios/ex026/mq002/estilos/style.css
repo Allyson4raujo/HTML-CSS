@@ -1,3 +1,22 @@
 @charset "UTF-8";
 
 /* config gerais */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: skyblue;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 0 blue;
+}
