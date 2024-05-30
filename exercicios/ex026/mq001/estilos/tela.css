@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: lightskyblue;
+}
+
+header>h1{
+    text-align: center;
+    margin: auto;
+}
+
+menu ul{
+    background-color: rgb(95, 144, 163);
+    
+}
+
+menu li{
+    display: inline-block;
+    background-color: rgb(41, 61, 70);
+    color: white;
+    padding: 7px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+article{
+    width: 90vw;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+
+}
