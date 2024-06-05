@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    
+    background-color: rgb(230, 230, 230);
+}
+
+header{
+    background-color: darkgray;
+}
+
+header h1{
+    text-align: center;
+}
+
+header ul{
+    
+    color: white;
+}
+
+header li{
+    padding: 10px;
+    background-color: rgb(88, 88, 88);    ;
+    display: inline-block;
+    
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+main{
+    width: 60vw;
+    margin: auto;
+}
+
+article{
+    text-align: justify;
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
